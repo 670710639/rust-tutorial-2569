@@ -809,3 +809,121 @@ int main() {
 * C++ ให้ Programmer กำหนดวิธีการ Capture ได้อย่างชัดเจน เช่น Capture แบบ Value หรือ Reference
 
 ---
+## 11. Teach Your Topic
+
+การนำเสนอมีสมาชิก **4 คน คนละประมาณ 5 นาที**
+
+| Member | Responsibility | Time |
+|---|---|---:|
+| Member 1 | Concept + Short Code Illustration | 5 min |
+| Member 2 | Detailed Code + Live Demo | 5 min |
+| Member 3 | Rust vs Other Language + PPL Analysis | 5 min |
+| Member 4 | Exercises + Common Mistakes + Challenge | 5 min |
+
+### Individual Contribution
+
+**Member 1**
+
+`Concept + Short Code Illustration + silde`
+
+**Member 2**
+
+`Detailed Code + Live Demo + silde`
+
+**Member 3**
+
+`Rust vs Other Language + PPL Analysis + silde`
+
+**Member 4**
+
+`Exercises + Common Mistakes + Challenge + silde`
+
+---
+
+## 12. References
+
+1. `https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/closures.html#closures`
+2. `https://rust-book.cs.brown.edu/ch13-00-functional-features.html`
+3. `https://rust-book.cs.brown.edu/ch13-01-closures.html`
+4. `https://doc.rust-lang.org/rust-by-example/fn.html`
+5. `https://doc.rust-lang.org/rust-by-example/fn/closures.html`
+
+---
+
+## 13. AI Usage Declaration
+
+| AI Tool | Purpose | How the Result Was Verified |
+|---|---|---|
+| `ChatGPT` | `ใช้เพื่อช่วยร่าง code` | `นำโค้ดไปทดลองรันและทดสอบผลลัพธ์ รวมถึงตรวจสอบว่าโค้ดตรงตามโจทย์และไม่มีข้อผิดพลาด` |
+| `Gemini` | `หาข้อมูล Syntax` | `ไปเปิดดู References ว่าตรงกันไหม` |
+
+### Declaration
+
+- [✓] Code ทุกส่วนที่นำเสนอได้รับการ Compile และทดสอบแล้ว
+- [✓] สมาชิกทุกคนสามารถอธิบาย Code ที่นำเสนอได้
+- [✓] ตรวจสอบข้อมูลจากแหล่งอ้างอิงที่น่าเชื่อถือแล้ว
+- [✓] ระบุการใช้ AI อย่างโปร่งใส
+
+**รายละเอียดการใช้ AI**
+
+`ใช้ AI ในการช่วยหาข้อมูลร่วมกับ เอกสารอ้างอิงที่น่าเชื่อถือ ตรวจสอบโดยเปรียบเทียบข้อมูลที่ได้จาก AI กับเอกสารอ้างอิง`
+`ใช้ AI ช่วยคิดและออกแบบโจทย์ ตรวจสอบโดยนำโค้ดไปทดลองรันจริง ถ้าผลลัพธ์ถูกต้อง จะนำโจทย์นี้มาใช้`
+
+---
+
+## 14. GitHub Contribution
+
+| Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
+
+| Member 1 | `0` | `0` | `0` | `0` | `Concept + Short Code Illustration` |
+| Member 2 | `0` | `1` | `1` | `0` | `Detailed Code + Live Demo` |
+| Member 3 | `0` | `1` | `1` | `0` | `Rust vs Other Language + PPL Analysis` |
+| Member 4 | `0` | `1` | `1` | `0` | `Exercises + Common Mistakes + Challenge` |
+
+### Teamwork Reflection
+
+**How did your team collaborate?**
+
+`นัดประชุมหาวัน deadline ส่งงาน แบ่งงานของแต่ละคน สมาชิกแต่ละคนแบ่งงานตามส่วนที่รับผิดชอบ โดยแต่ละคนทำงานบน Branch ของตนเอง เมื่อทำงานเสร็จจะ Commit และ Push ขึ้น GitHub แล้วสร้าง Pull Request เพื่อให้สมาชิกคนอื่นตรวจสอบโค้ด ก่อนที่จะ Merge เข้าสู่ Branch หลัก หากพบข้อผิดพลาดหรือมีข้อเสนอแนะ จะปรับแก้และส่ง Pull Request อีกครั้งจนกว่าจะเรียบร้อย แชร์ลิงก์ไฟล์ Canva ให้สมาชิกคนอื่นเข้าถึงและแก้ไขงานร่วมกัน แต่ละคนสามารถแก้ไขเนื้อหาในส่วนที่ได้รับมอบหมาย เมื่อแก้ไขเสร็จช่วยกันตรวจสอบความเรียบร้อยก่อนส่งงาน`
+
+**Problems encountered**
+
+`เกิด conflinct request`
+
+**How did you solve them?**
+
+`ค่อยๆ ให้สมาชิกแต่ละคนแตก Branch และ PR ส่งต่อกันทีละคนจนเสร็จ`
+
+---
+
+## 15. Final Checklist
+
+- [✓] Learning Objectives ครบ 3–4 ข้อ
+- [✓] Key Concepts ครบถ้วน
+- [✓] Syntax / Rules
+- [✓] Runnable Code Examples
+- [✓] Code Compile และ Run ได้จริง
+- [✓] Common Mistakes
+- [✓] Exercises 2 ข้อ พร้อม Solutions
+- [✓] PPL Perspective
+- [✓] Rust vs Other Language
+- [✓] References อย่างน้อย 4 แหล่ง
+- [✓] AI Usage Declaration
+- [✓] GitHub Contribution
+- [✓] สมาชิกทั้ง 4 คนมีส่วนร่วม
+- [✓] สมาชิกทั้ง 4 คนพร้อมนำเสนอคนละ 5 นาที
+- [✓] สมาชิกทุกคนสามารถอธิบาย Code ของกลุ่มได้
+
+---
+
+## Submission Information
+
+**Repository:** `[GitHub repository URL]`
+
+**Chapter Path:** `[เช่น chapters/01-introduction/]`
+
+**Final PR:** `#[PR number]`
+
+**Submitted by:** `[Group XX]`
+
+**Date:** `[YYYY-MM-DD]`
