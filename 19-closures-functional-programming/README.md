@@ -365,9 +365,9 @@ fn demo_functional_pipeline() {
 
 ---
 
-# 7. Common Mistakes
+## 7. Common Mistakes
 
-## Mistake 1 — พยายามคืน `Fn(...)` ตรง ๆ จากฟังก์ชัน
+### Mistake 1 — พยายามคืน `Fn(...)` ตรง ๆ จากฟังก์ชัน
 
 **Problem**
 
@@ -447,7 +447,7 @@ fn factory() -> impl Fn(i32) -> i32 {
 
 ---
 
-## Mistake 2 — ลืมใช้ `move` ตอนคืน Closure ที่ capture ตัวแปรภายในฟังก์ชัน
+### Mistake 2 — ลืมใช้ `move` ตอนคืน Closure ที่ capture ตัวแปรภายในฟังก์ชัน
 
 **Problem**
 
@@ -513,9 +513,9 @@ Box::new(move |x| x + num)
 
 ---
 
-# 8. Exercises
+## 8. Exercises
 
-## Exercise 1 — Once Function
+### Exercise 1 — Once Function
 
 **Problem**
 
@@ -611,7 +611,7 @@ MySystem is ready
 
 ---
 
-## Exercise 2 — Higher-Order Iterator Filter Generator
+### Exercise 2 — Higher-Order Iterator Filter Generator
 
 **Problem**
 
