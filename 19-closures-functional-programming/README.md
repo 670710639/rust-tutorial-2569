@@ -144,26 +144,23 @@ fn main() {
 **ตัวอย่าง**
 
 ```rust
-fn apply<F>(value: i32, operation: F) -> i32
-where
-    F: Fn(i32) -> i32,
-{
+fn apply(value: i32, operation: fn(i32) -> i32) -> i32 {
     operation(value)
 }
 
+fn double(x: i32) -> i32 {
+    x * 2
+}
+
 fn main() {
-    let double = |x| x * 2;
-
     let result = apply(5, double);
-
-    println!("{}", result);
+    println!("{}", result); // 10
 }
 ```
 
 **Explanation**
 
-`ฟังก์ชัน apply รับพารามิเตอร์ 2 ตัว คือ value และ operation โดย operation เป็น Closure ที่รับ i32 และคืนค่า i32ใน main สร้าง Closure double ที่นำค่าที่รับเข้ามาคูณด้วย 2 จากนั้นส่ง 5 และ double เข้าไปใน apply
-เมื่อ apply(5, double) ทำงาน Closure double จะถูกนำไปใช้กับค่า 5 จึงคำนวณ 5 × 2 และได้ผลลัพธ์เป็น 10`
+`main() จะเรียกใช้ฟังก์ชัน apply() โดยส่งค่า 5 และฟังก์ชัน double เข้าไปเป็นพารามิเตอร์ จากนั้น apply() จะนำฟังก์ชัน double ที่ได้รับมาเรียกใช้กับค่า 5 ผ่านคำสั่ง operation(value) ซึ่งจะทำให้เกิดการทำงานเหมือน double(5) ฟังก์ชัน double() จะนำค่า 5 ไปคูณด้วย 2 และส่งผลลัพธ์ 10 กลับมายัง apply() หลังจากนั้นค่าที่ได้จะถูกเก็บไว้ในตัวแปร result และนำไปแสดงผลด้วย println!() ทำให้ผลลัพธ์ที่แสดงบนหน้าจอคือ 10`
 
 ---
 ## 5. Important Syntax / Rules
