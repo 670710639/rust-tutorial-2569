@@ -9,6 +9,7 @@ fn main() {
     let f = factory();
     println!("{}", f(1));
 }*/
+
 //Correct Code
 fn factory() -> Box<dyn Fn(i32) -> i32> {
     let num = 5;
