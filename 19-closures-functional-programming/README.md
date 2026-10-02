@@ -11,10 +11,10 @@
 
 | # | Name | Student ID | GitHub Username | Main Responsibility |
 |---|---|---|---|---|
-| 1 | นายก้องภพ คุณดำรงชัย | 670710639 | `@[670710639]` | Concept + Short Code Illustration (สรุปแนวคิดหลัก + โค้ดตัวอย่างสั้น) |
-| 2 | นายคีรเทพ ก้องสุวรรณ | 670710641 | `@[670710641]` | Detailed Code + Live Demo (โค้ดเชิงลึก + สาธิตสด) |
-| 3 | นางสาวจิณณพัต แหล่งหล้า | 670710642 | `@[670710642]` | Rust vs Other Language + PPL Analysis (เปรียบเทียบภาษา + วิเคราะห์เชิง PPL) |
-| 4 | นางสาวจุฑารัตน์ รู้วงษ์ | 670710643 | `@[670710643]` | Exercises + Common Mistakes + Challenge (แบบฝึกหัด + ข้อผิดพลาดที่พบบ่อย + คำถามท้าทาย) |
+| 1 | นายก้องภพ คุณดำรงชัย | 670710639 | `@670710639` | Concept + Short Code Illustration (สรุปแนวคิดหลัก + โค้ดตัวอย่างสั้น) |
+| 2 | นายคีรเทพ ก้องสุวรรณ | 670710641 | `@670710641` | Detailed Code + Live Demo (โค้ดเชิงลึก + สาธิตสด) |
+| 3 | นางสาวจิณณพัต แหล่งหล้า | 670710642 | `@670710642` | Rust vs Other Language + PPL Analysis (เปรียบเทียบภาษา + วิเคราะห์เชิง PPL) |
+| 4 | นางสาวจุฑารัตน์ รู้วงษ์ | 670710643 | `@670710643` | Exercises + Common Mistakes + Challenge (แบบฝึกหัด + ข้อผิดพลาดที่พบบ่อย + คำถามท้าทาย) |
 
 ---
 
@@ -873,8 +873,11 @@ int main() {
 | Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
 
 | Member 1 | `0` | `0` | `0` | `0` | `Concept + Short Code Illustration` |
+
 | Member 2 | `0` | `1` | `1` | `0` | `Detailed Code + Live Demo` |
+
 | Member 3 | `0` | `1` | `1` | `0` | `Rust vs Other Language + PPL Analysis` |
+
 | Member 4 | `0` | `1` | `1` | `0` | `Exercises + Common Mistakes + Challenge` |
 
 ### Teamwork Reflection
