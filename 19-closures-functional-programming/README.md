@@ -918,12 +918,12 @@ int main() {
 
 ## Submission Information
 
-**Repository:** `[GitHub repository URL]`
+**Repository:** `https://github.com/670710639/rust-tutorial-2569/tree/group19-closures`
 
-**Chapter Path:** `[เช่น chapters/01-introduction/]`
+**Chapter Path:** `chapter 19-closures-functional-programming `
 
-**Final PR:** `#[PR number]`
+**Final PR:** `#27`
 
-**Submitted by:** `[Group XX]`
+**Submitted by:** `Group 19`
 
-**Date:** `[YYYY-MM-DD]`
+**Date:** `2026-10-02`
