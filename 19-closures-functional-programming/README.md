@@ -872,13 +872,13 @@ int main() {
 
 | Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
 
-| Member 1 | `0` | `50` | `1` | `2` | `Concept + Short Code Illustration` |
+| Member 1 | `0` | `51` | `1` | `2` | `0` |
 
-| Member 2 | `0` | `1` | `1` | `98 ` | `Detailed Code + Live Demo` |
+| Member 2 | `0` | `1` | `1` | `98 ` | `0` |
 
-| Member 3 | `0` | `1` | `1` | `3` | `Rust vs Other Language + PPL Analysis` |
+| Member 3 | `0` | `1` | `1` | `3` | `0` |
 
-| Member 4 | `0` | `1` | `1` | `37` | `Exercises + Common Mistakes + Challenge` |
+| Member 4 | `0` | `1` | `1` | `37` | `0` |
 
 ### Teamwork Reflection
 
