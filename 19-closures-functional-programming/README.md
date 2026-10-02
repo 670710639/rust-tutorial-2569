@@ -872,13 +872,13 @@ int main() {
 
 | Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
 
-| Member 1 | `0` | `51` | `1` | `2` | `0` |
+| Member 1 | `0` | `51` | `1` | `0` | `2` |
 
-| Member 2 | `0` | `1` | `1` | `98 ` | `0` |
+| Member 2 | `0` | `1` | `1` | `0` | `98` |
 
-| Member 3 | `0` | `1` | `1` | `3` | `0` |
+| Member 3 | `0` | `1` | `1` | `0` | `3` |
 
-| Member 4 | `0` | `1` | `1` | `37` | `0` |
+| Member 4 | `0` | `1` | `1` | `0` | `37` |
 
 ### Teamwork Reflection
 
